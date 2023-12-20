@@ -6,11 +6,8 @@ settings:
 
 dependencies:
   '@ai-utils/mistral':
-    specifier: ^0.1.1
-    version: 0.1.1
-  '@mistralai/mistralai':
-    specifier: ^0.0.7
-    version: 0.0.7
+    specifier: ^0.1.2
+    version: 0.1.2
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -57,8 +54,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /@ai-utils/mistral@0.1.1:
-    resolution: {integrity: sha512-7O3aVchqX4WkLEwhhvFKcOGP8Fm9yKK/aefN+JCxuueUoelbPrgVhGbJRN1g/rTXEgrMhxMu9ZLE22bdUvYKFQ==}
+  /@ai-utils/mistral@0.1.2:
+    resolution: {integrity: sha512-xrahiDgiyeDUklXv8jJ9esAM9NOI/BC5RbmjSV9pri6RweWqrnXes3IDnFKznzIGoM3BWFB6/o/4PneP6wEVdA==}
     dependencies:
       '@types/node-fetch': 2.6.9
       axios: 1.6.2
@@ -331,15 +328,6 @@ packages:
   /@humanwhocodes/object-schema@2.0.1:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
-
-  /@mistralai/mistralai@0.0.7:
-    resolution: {integrity: sha512-47FiV/GBnt6gug99ZfDBcBofYuYvqT5AyhUDdtktUbCN+gq52tmiAbtwc88k7hlyUWHzJ28VpHRDfNTRfaWKxA==}
-    dependencies:
-      axios: 1.6.2
-      axios-retry: 4.0.0(axios@1.6.2)
-    transitivePeerDependencies:
-      - debug
-    dev: false
 
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
